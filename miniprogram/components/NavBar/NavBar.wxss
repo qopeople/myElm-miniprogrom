@@ -1,0 +1,11 @@
+.yy-nav {
+  position: flex;
+  line-height: 40rpx;
+  height: 40rpx;
+  width: 100%;
+  padding: 40px 0px 10px 10px;
+  background-color: #0ebaf9;
+  color: white;
+  display: flex;
+  z-index: 9999999;
+}

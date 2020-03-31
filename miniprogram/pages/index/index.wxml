@@ -1,0 +1,35 @@
+<yy-nav titleName="饿了么"></yy-nav>
+<scroll-view scroll-y="true" style="height:520px" bindscroll="handleScoll" scroll-x="{{false}}">
+  <view class="yy-loc">
+    <i class="t-icon iconzu-copy yy-loc-img"></i>
+    <view class="yy-loc-name">{{currentAddress}}</view>
+    <i class="iconarrowup t-icon yy-loc-img"></i>
+  </view>
+  <view class="yy-serach-input">
+    <i class="t-icon iconsousuo1"></i>
+    搜索商家、商品名称
+  </view>
+  <view class="yy-sales-img">
+    <image src="../../images/index/sales1.jpg" />
+  </view>
+  <swiper class="yy-swiper" indicator-dots="{{true}}" autoplay="{{false}}" interval="{{5000}}" duration="{{500}}" indicator-active-color="rgb(18, 150, 219)" indicator-color="grey">
+    <swiper-item wx:for="{{imgUrls}}" wx:for-item="items">
+      <view class="yy-swiper-item" wx:for="{{items}}" wx:for-item="item1">
+        <!-- <i class="t-icon {{item}} yy-swiper-icon"></i> -->
+        <view class="yy-item" wx:for="{{item1}}" wx:for-item="item">
+          <i class="t-icon {{item}} yy-swiper-icon"></i>
+        </view>
+      </view>
+    </swiper-item>
+  </swiper>
+  <view class="yy-sales-img">
+    <image src="../../images/index/sales3.jpg" />
+  </view>
+  <view class="yy-saler-name">推荐商家</view>
+  <view class="yy-select-type">
+    <view class="yy-type-item" wx:for="{{selectType}}">{{item}}</view>
+  </view>
+  <view wx:for="{{5}}">
+    <yy-food-item></yy-food-item>
+  </view>
+</scroll-view>

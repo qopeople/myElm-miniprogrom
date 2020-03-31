@@ -1,0 +1,69 @@
+.yy-name {
+  display: flex;
+}
+
+.yy-img {
+  width: 70rpx;
+  height: 70rpx;
+  margin: 5rpx 20rpx;
+}
+
+.yy-saler-name {
+  flex: auto;
+  border-bottom: 1px solid #E6E1DF;
+  padding-bottom: 25px;
+
+}
+
+.yy-saler-name .yy-text-1 {
+  max-width: 260rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  font-size: 36rpx;
+}
+
+.yy-saler-name .yy-text-2 {
+  float: right;
+  font-size: 26rpx;
+
+}
+
+.yy-order-item {
+  margin: 20rpx 40rpx;
+
+  height: 230rpx;
+
+}
+
+.yy-time {
+  text-align: left;
+  font-size: 24rpx;
+  color: #A4A4A4;
+  position: absolute;
+  left: 110rpx;
+  top: 50rpx;
+
+}
+
+.yy-order-item {
+  position: relative;
+}
+
+.yy-cai-1 {
+  color: #9A918E;
+
+}
+
+.yy-cai-2 {
+  color: black;
+  float: right;
+  margin-right: 15rpx;
+}
+
+.yy-cais {
+  height: 90rpx;
+  line-height: 90rpx;
+
+}

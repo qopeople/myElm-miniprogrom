@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "yy-food-item": "../../components/FootItem/index"
+  }
+}

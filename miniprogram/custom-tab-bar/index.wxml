@@ -1,0 +1,10 @@
+<cover-view class="yy-tarbar">
+  <cover-view wx:for="{{tarbar}}" class="yy-tar-item" wx:key="index" data-path="{{item.pagePath}}" data-index="{{index}}" bindtap="switchTab">
+    <cover-view>
+      <i class="t-icon yy-icon  {{selected != index?item.iconPath:item.selectedIconPath}}"></i>
+    </cover-view>
+    <cover-view style="{{selected != index?'color:'+color:'color:'+selectedColor}}">
+      {{item.name}}
+    </cover-view>
+  </cover-view>
+</cover-view>

@@ -1,0 +1,105 @@
+/* components/FootItem/index.wxss */
+@import "../../style/iconfont-weapp-icon.wxss";
+
+.yy-item-box {
+  display: flex;
+  padding: 0rpx 25rpx;
+  min-height: 270rpx;
+}
+
+.yy-img {
+  width: 180rpx;
+  height: 180rpx;
+
+}
+
+.yy-des {
+  flex: auto;
+}
+
+.yy-name {
+  font-size: 38rpx;
+  font-weight: 560;
+  margin-left: 15rpx;
+
+}
+
+.yy-sheng {
+  float: right;
+  color: grey;
+}
+
+.yy-rate {
+  color: rgb(240, 160, 57);
+  font-size: 24rpx;
+}
+
+.yy-text {
+  color: grey;
+  font-size: 24rpx;
+  margin: 5rpx 15rpx;
+}
+
+.yy-col-1 {
+  height: 50rpx;
+  line-height: 50rpx;
+}
+
+.yy-icon {
+  width: 30rpx;
+  height: 30rpx;
+  margin-top: 15rpx;
+}
+
+.yy-review {
+  display: inline;
+  background-color: #F3D5B9;
+  font-size: 22rpx;
+  color: #FA7B06;
+  opacity: 0.8;
+  margin: 15rpx;
+  border-radius: 5rpx;
+  padding: 2rpx 8rpx;
+}
+
+.yy-tags {
+  margin: 5rpx 15rpx;
+}
+
+.yy-tag-1 {
+  font-size: 22rpx;
+  display: inline;
+  color: #EF3D15;
+  border: 1px solid #F46021;
+  padding: 2rpx 8rpx;
+  margin: 9rpx;
+}
+
+.yy-tag-2 {
+  font-size: 22rpx;
+  display: inline;
+  color: #7F7D7C;
+  border: 1px solid #A29E9D;
+  padding: 2rpx 8rpx;
+  margin: 9rpx;
+}
+
+.yy-tag-3 {
+  font-size: 22rpx;
+  display: inline;
+  margin: 9rpx;
+  color: #C27E60;
+  border: 1px solid #C87E5E;
+  padding: 2rpx 8rpx;
+}
+
+.yy-tag-4 {
+  font-size: 22rpx;
+  display: inline;
+  background-color: #F2A381;
+  color: #EF3D15;
+  /* border: 1px solid #A29E9D; */
+  padding: 2rpx 8rpx;
+  opacity: 0.8;
+  margin: 9rpx;
+}

@@ -1,0 +1,16 @@
+<yy-nav titleName="我的订单"></yy-nav>
+<view class="yy-order-item" wx:for="{{4}}">
+  <view class="yy-name">
+    <image src="../../images/index/food.jpg" class="yy-img" />
+    <view class="yy-saler-name">
+      <text class="yy-text-1">正宗黄焖鸡米饭(东职理工学院)</text>
+      <i class="t-icon iconic_arrowr yy-icon"></i>
+      <text class="yy-text-2">订单已送达</text>
+    </view>
+  </view>
+  <view class="yy-time">2019-11-12 19:30</view>
+  <view class="yy-cais">
+    <text class="yy-cai-1">黄焖鸡+油豆腐+青菜+米饭</text>
+    <text class="yy-cai-2">$8.99</text>
+  </view>
+</view>

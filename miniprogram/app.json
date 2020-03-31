@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/myOrder/myOrder",
+    "pages/myCenter/myCenter",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundColor": "white",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d81e06",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/myOrder/myOrder",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/myCenter/myCenter",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "yy-nav": "./components/NavBar/NavBar"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

@@ -1,0 +1,73 @@
+<yy-nav titleName="饿了么" otherStyle="true"></yy-nav>
+<view class="yy-col-1">
+  <view class="yy-myname">
+    <view class="yy-text-1">齐齐ewfrwg</view>
+    <view class="yy-text-2">再忙,也要记得吃饭哟~</view>
+  </view>
+  <view class="yy-avatar">
+    <i class="t-icon iconeliaomo yy-icon"></i>
+  </view>
+</view>
+<view class="yy-col-2">
+  <view class="yy-text-box">
+    <text>红包</text>
+    <i class="t-icon iconhongbao  yy-icon2" style="float:right"></i>
+    <view class="yy-text">
+      <text style="color:red">4</text>
+      <text>个未用</text>
+    </view>
+  </view>
+  <view class="yy-text-box">
+    <text>余额</text>
+    <i class="t-icon iconhongbaoyouhuiquan  yy-icon2" style="float:right"></i>
+    <view class="yy-text">
+      <text style="color:red">￥0</text>
+      <!-- <text>个未用</text> -->
+    </view>
+  </view>
+</view>
+<view class="yy-col-3">
+  <view class="yy-heng-1">
+    <i class="t-icon iconxin"></i>
+  </view>
+  <view class="yy-heng-2">
+    <text>我的收货地址</text>
+    <i class="t-icon   iconyoujiantou  yy-icon3"></i>
+  </view>
+</view>
+<view class="yy-col-3">
+  <view class="yy-heng-1">
+    <i class="t-icon iconxin"></i>
+  </view>
+  <view class="yy-heng-2">
+    <text>我的收藏</text>
+    <i class="t-icon iconyoujiantou yy-icon3"></i>
+  </view>
+</view>
+<view class="yy-col-3">
+  <view class="yy-heng-1">
+    <i class="t-icon iconliwu"></i>
+  </view>
+  <view class="yy-heng-2">
+    <text>推荐有礼</text>
+    <i class="t-icon iconyoujiantou yy-icon3"></i>
+  </view>
+</view>
+<view class="yy-col-3">
+  <view class="yy-heng-1">
+    <i class="t-icon iconkefu-copy"></i>
+  </view>
+  <view class="yy-heng-2">
+    <text>我的客服</text>
+    <i class="t-icon iconyoujiantou yy-icon3"></i>
+  </view>
+</view>
+<view class="yy-col-3">
+  <view class="yy-heng-1">
+    <i class="t-icon iconguize"></i>
+  </view>
+  <view class="yy-heng-2">
+    <text>规则中心</text>
+    <i class="t-icon iconyoujiantou yy-icon3"></i>
+  </view>
+</view>

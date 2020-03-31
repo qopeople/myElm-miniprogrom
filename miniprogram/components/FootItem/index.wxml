@@ -1,0 +1,28 @@
+<!-- components/FootItem/index.wxml -->
+<view class="yy-item-box">
+  <image src="../../images/index/food.jpg" class="yy-img" />
+  <view class="yy-des">
+    <view>
+      <text class="yy-name">尊宝披萨(金地格林店)</text>
+      <text class="yy-sheng">...</text>
+    </view>
+    <view class="yy-col-1" style="margin-left:15rpx">
+      <i class="t-icon iconxingxing1-copy-copy yy-icon"></i>
+      <text class="yy-rate">4.7</text>
+      <text class="yy-text">月售259</text>
+    </view>
+    <view class="yy-col-1">
+      <text class="yy-text">起送￥15</text>
+      <text class="yy-text">免配送费</text>
+      <text class="yy-text yy-sheng">57分钟 3.4km</text>
+    </view>
+    <view class="yy-review">东莞披萨人气第1名</view>
+    <view class="yy-tags">
+      <text class="yy-tag-1">30减2</text>
+      <text class="yy-tag-2">支持自取</text>
+      <text class="yy-tag-3">6元会员红包</text>
+      <text class="yy-tag-4">津贴1元</text>
+      <!-- <i class="t-icon " ></i> -->
+    </view>
+  </view>
+</view>

@@ -1,0 +1,75 @@
+/* miniprogram/pages/myCenter/myCenter.wxss */
+.yy-col-1 {
+  display: flex;
+  margin: 25rpx 50rpx;
+}
+
+.yy-myname {
+  flex: 1;
+}
+
+.yy-text-1 {
+  font-size: 55rpx;
+  font-weight: 540;
+
+}
+
+.yy-text-2 {
+  font-size: 30rpx;
+  color: #A4A4A4;
+  margin-top: 10rpx;
+
+}
+
+.yy-icon {
+  width: 140rpx;
+  height: 140rpx;
+
+}
+
+.yy-col-2 {
+  display: flex;
+}
+
+.yy-col-2 .yy-text-box {
+  flex: 1;
+  /* box-shadow: 0px 0px 2rpx 2rpx; */
+  background-color: #F6F4F3;
+  height: 100rpx;
+  margin: 20rpx 10rpx;
+  padding: 20rpx;
+}
+
+.yy-col-2 .yy-text-box .yy-text {
+  color: #A4A4A4;
+  margin-top: 30rpx;
+  font-size: 28rpx;
+}
+
+.yy-icon2 {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.yy-col-3 {
+  display: flex;
+  height: 90rpx;
+  line-height: 90rpx;
+}
+
+.yy-col-3 .yy-heng-1 {
+  margin: 0px 20rpx;
+  padding: 6rpx 10rpx;
+}
+
+.yy-col-3 .yy-heng-2 {
+  flex: auto;
+  border-bottom: 1px solid #E6E1DF;
+}
+
+.yy-icon3 {
+  float: right;
+  margin-right: 10px;
+  margin-top: 30rpx;
+
+}

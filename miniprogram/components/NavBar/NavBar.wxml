@@ -1,0 +1,4 @@
+<!-- components/NavBar/NavBar.wxml -->
+<view class="yy-nav" style="{{otherStyle?' background-color:white;color:black':''}}">
+  {{titleName}}
+</view>

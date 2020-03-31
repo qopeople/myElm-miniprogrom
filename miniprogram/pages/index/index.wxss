@@ -1,0 +1,104 @@
+.iconzu-copy {
+  color: rgb(18, 150, 219);
+  font-size: 40rpx;
+}
+
+.yy-loc-img {
+  width: 50rpx;
+  height: 45rpx;
+  margin: 6rpx;
+}
+
+.yy-loc {
+  display: flex;
+  margin-top: 15rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+
+.yy-loc-name {
+
+  max-width: 200rpx;
+  overflow: hidden;
+  /* text-overflow: ellipsis;
+  white-space: nowrap;   */
+}
+
+.yy-serach-input {
+  width: 93%;
+  margin: 30rpx auto;
+  text-align: center;
+  background-color: #F2F2F2;
+  border-radius: 20rpx;
+  outline: none;
+  font-size: 26rpx;
+  color: #A4A4A4;
+  padding: 10rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+
+.yy-serach-input .iconsousuo1 {
+  width: 26rpx;
+  height: 26rpx;
+
+}
+
+.yy-sales-img {
+  width: 95%;
+  margin: 20rpx auto;
+
+}
+
+.yy-sales-img image {
+  height: 200rpx;
+  width: 100%;
+
+}
+
+.yy-swiper {
+  margin: 10rpx auto;
+  height: 240rpx;
+}
+
+.yy-swiper-item {
+  display: flex;
+  text-align: center;
+}
+
+.yy-swiper-item .yy-item {
+  flex: 1;
+}
+
+.yy-swiper-icon {
+  width: 80rpx;
+  height: 80rpx;
+  margin: 10rpx auto;
+  /* margin:40rpx; */
+  /* flex: 1; */
+}
+
+.yy-saler-name {
+  text-align: left;
+  margin-left: 20rpx;
+  font-size: 30rpx;
+  color: deepskyblue;
+}
+
+.yy-select-type {
+  display: flex;
+  font-size: 26rpx;
+  margin: 20rpx auto;
+  width: 98%;
+}
+
+.yy-type-item {
+  flex: 1;
+  background-color: #F2F2F2;
+  color: #A4A4A4;
+  text-align: center;
+  width: 80%;
+  margin: 0px 10rpx;
+  border-radius: 16rpx;
+  padding: 6rpx;
+}
